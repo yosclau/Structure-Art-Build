@@ -1,0 +1,64 @@
+{
+  "_README": "Biografía de Adrián, EN y ES, texto VERBATIM rescatado de src/lang.js antes de reescribirlo. Ya estaba trabajada, no la reescribas ni la parafrasees.",
+  "_origen": "src/lang.js (posicionamiento anterior). El texto biográfico es neutral y sirve igual para el posicionamiento nuevo.",
+
+  "bio": {
+    "eyebrow":  { "en": "The Story", "es": "La Historia" },
+    "heading":  { "en": "About", "es": "Sobre" },
+    "heading_em": { "en": "Adrián", "es": "Adrián" },
+    "subheading": {
+      "en": "The craftsman behind every weld, every measurement, every structure that stands.",
+      "es": "El artesano detrás de cada soldadura, cada medición, cada estructura que se sostiene."
+    },
+    "paragraphs": {
+      "en": [
+        "Adrián's story didn't start in Chicago. It started in Mexico, learning the value of hard work, precision, and responsibility — working hands-on with metal and construction long before arriving in the city.",
+        "When he arrived in Chicago — known as the city of steel — it felt like purpose meeting opportunity. What began as a trade became a calling.",
+        "Structure Art combines structural welding, custom metal fabrication, wood integration, and construction expertise to deliver projects that are not only strong — but meaningful. Because behind every balcony, staircase, and frame, there is a family that depends on that structure."
+      ],
+      "es": [
+        "La historia de Adrián no empezó en Chicago. Empezó en México, aprendiendo el valor del trabajo duro, la precisión y la responsabilidad — trabajando manos a la obra con metal y construcción mucho antes de llegar a la ciudad.",
+        "Cuando llegó a Chicago — conocida como la ciudad del acero — sintió que el propósito se encontraba con la oportunidad. Lo que empezó como un oficio se convirtió en una vocación.",
+        "Structure Art combina soldadura estructural, fabricación de metal custom, integración de madera y experiencia en construcción para entregar proyectos que no solo son fuertes — sino significativos. Porque detrás de cada balcón, escalera y marco, hay una familia que depende de esa estructura."
+      ]
+    },
+    "pull_quote": {
+      "en": "There is trust. There is safety. There is a family who depends on that structure.",
+      "es": "Hay confianza. Hay seguridad. Hay una familia que depende de esa estructura."
+    },
+    "mission": {
+      "en": "Build strong. Serve with respect. Deliver work that lasts.",
+      "es": "Construir fuerte. Servir con respeto. Entregar trabajo que dura."
+    },
+    "mission_label": {
+      "en": "— The Structure Art Mission",
+      "es": "— La Misión de Structure Art"
+    },
+    "cta": { "en": "Work With Adrián", "es": "Trabaja Con Adrián" },
+    "stat_strip": { "en": "8 Years · Metal + Wood · Chicago", "es": "8 Años · Metal + Madera · Chicago" },
+    "portrait": "PENDIENTE"
+  },
+
+  "proceso": [
+    { "n": "I",   "name": { "en": "Visit",     "es": "Visita" },
+      "text": { "en": "We listen, assess, and understand your vision.",
+                "es": "Escuchamos, evaluamos y entendemos tu visión." } },
+    { "n": "II",  "name": { "en": "Design",    "es": "Diseño" },
+      "text": { "en": "We design solutions that fit your budget.",
+                "es": "Diseñamos soluciones que se ajustan a tu presupuesto." } },
+    { "n": "III", "name": { "en": "Build",     "es": "Construcción" },
+      "text": { "en": "We build with precision, in metal and wood.",
+                "es": "Construimos con precisión, en metal y madera." } },
+    { "n": "IV",  "name": { "en": "Deliver",   "es": "Entrega" },
+      "text": { "en": "We deliver excellence, down to the detail.",
+                "es": "Entregamos excelencia, hasta el último detalle." } }
+  ],
+
+  "_frases_a_retirar": {
+    "_nota": "Estas venían en lang.js y CHOCAN con las reglas del brief nuevo. No las traslades.",
+    "Projects typically start at $8,000+": "Revela presupuesto en página pública. Prohibido por la regla 3.",
+    "Built to last decades. Guaranteed quality.": "Es una garantía. No hay documento que la respalde.",
+    "100% in-house fabrication by Adrián's team": "Ya no aplica igual: hay equipo dedicado a cocina y baño y se hace construcción general. Revisar con Adrián antes de usarla.",
+    "We don't leave until everything is perfect": "Promesa no verificable."
+  }
+}

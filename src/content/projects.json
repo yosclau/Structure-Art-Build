@@ -1,0 +1,1735 @@
+{
+  "_README": "Agrupado por CONTENIDO revisado visualmente. Reemplaza la version anterior que agrupaba por fecha y estaba mal.",
+  "_generado": "2026-08-18",
+  "no_publicar": {
+    "_nota": "Estas imagenes NO son proyectos. Fuera del portafolio.",
+    "excluidas": {
+      "gates-fences-009": "captura de Instagram",
+      "gates-fences-010": "captura de Instagram",
+      "railings-stairs-decks-030": "captura de Instagram",
+      "gates-fences-068": "anuncio publicitario (BUILT CLEAN)",
+      "gates-fences-044": "van de la empresa",
+      "gates-fences-045": "van de la empresa"
+    },
+    "sin_clasificar": {
+      "gates-fences-013": "cerca de madera clara//intemperizada, confirmar si es otro predio",
+      "railings-stairs-decks-029": "cerca de madera clara/intemperizada, confirmar si es otro predio"
+    }
+  },
+  "projects": [
+    {
+      "slug": "wood-slat-fence",
+      "category": "gates-fencing",
+      "category_label": {
+        "en": "Gates & Fencing",
+        "es": "Portones y Cercas"
+      },
+      "title": {
+        "en": "Horizontal Wood Slat Fence",
+        "es": "Cerca de Madera Horizontal"
+      },
+      "description": {
+        "en": "Horizontal wood slat privacy fence on black steel posts, with integrated steel railing.",
+        "es": "Cerca de privacidad de listón de madera horizontal sobre postes de acero negro, con barandal de acero integrado."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 15,
+      "cover": "gates-fences-004",
+      "images": [
+        {
+          "slug": "gates-fences-001",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-001-480.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-002",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-002-480.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-003",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-003-480.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-004",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-004-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-004-960.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-005",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-005-480.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-006",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-006-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-006-960.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-007",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-007-480.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-008",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-008-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-008-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-019",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-019-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-019-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-020",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-020-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-020-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-021",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-021-480.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-022",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-022-480.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-023",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-023-480.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-024",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-024-480.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-025",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-025-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-025-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-025-1440.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "brick-entry-railings",
+      "category": "metal-railings",
+      "category_label": {
+        "en": "Metal & Railings",
+        "es": "Metal y Barandales"
+      },
+      "title": {
+        "en": "Brick Home Entry Railings",
+        "es": "Barandales de Acceso en Casa de Ladrillo"
+      },
+      "description": {
+        "en": "Black horizontal-bar steel railings for front steps and raised porch.",
+        "es": "Barandales de acero de barra horizontal negra para escalones frontales y pórtico elevado."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 50,
+      "cover": "gates-fences-022",
+      "images": [
+        {
+          "slug": "gates-fences-022",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-022-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-022-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-022-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-023",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-023-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-023-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-023-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-024",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-024-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-024-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-024-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-025",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-025-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-025-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-025-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-026",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-026-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-026-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-026-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-027",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-027-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-027-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-027-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-028",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-028-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-028-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-028-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-029",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-029-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-029-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-029-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-030",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-030-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-030-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-030-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-031",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-031-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-031-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-031-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-032",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-032-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-032-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-032-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-033",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-033-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-033-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-033-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-034",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-034-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-034-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-034-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-035",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-035-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-035-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-035-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-036",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-036-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-036-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-036-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-037",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-037-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-037-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-037-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-038",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-038-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-038-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-038-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-039",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-039-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-039-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-039-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-040",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-040-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-040-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-040-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-041",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-041-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-041-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-041-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-042",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-042-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-042-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-042-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-043",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-043-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-043-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-043-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-073",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-073-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-073-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-073-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-074",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-074-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-074-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-074-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-039",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-039-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-039-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-039-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-040",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-040-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-040-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-040-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-041",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-041-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-041-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-041-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-042",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-042-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-042-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-042-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-043",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-043-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-043-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-043-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-044",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-044-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-044-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-044-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-045",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-045-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-045-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-045-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-046",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-046-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-046-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-046-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-047",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-047-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-047-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-047-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-048",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-048-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-048-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-048-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-049",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-049-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-049-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-049-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-050",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-050-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-050-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-050-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-051",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-051-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-051-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-051-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-052",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-052-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-052-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-052-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-053",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-053-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-053-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-053-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-054",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-054-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-054-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-054-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-055",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-055-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-055-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-055-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-056",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-056-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-056-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-056-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-057",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-057-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-057-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-057-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-058",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-058-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-058-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-058-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-059",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-059-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-059-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-059-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-060",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-060-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-060-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-060-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-061",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-061-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-061-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-061-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-062",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-062-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-062-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-062-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-063",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-063-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-063-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-063-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-064",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-064-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-064-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-064-1440.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "apartment-steel-stairs",
+      "category": "metal-railings",
+      "category_label": {
+        "en": "Metal & Railings",
+        "es": "Metal y Barandales"
+      },
+      "title": {
+        "en": "Apartment Building Steel Stairs",
+        "es": "Escaleras de Acero en Edificio de Apartamentos"
+      },
+      "description": {
+        "en": "Three-story exterior steel stair and landing system for a multi-family building. Diamond plate treads, welded stringers, full-height railings.",
+        "es": "Sistema exterior de escaleras y descansos de acero de tres niveles para edificio multifamiliar. Huella de placa antiderrapante, largueros soldados y barandal de altura completa."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 18,
+      "cover": "gates-fences-014",
+      "images": [
+        {
+          "slug": "gates-fences-014",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-014-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-014-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-014-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-015",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-015-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-015-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-015-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-016",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-016-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-016-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-016-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-017",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-017-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-017-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-017-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-018",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-018-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-018-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-018-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-019",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-019-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-019-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-019-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-020",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-020-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-020-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-020-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-021",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-021-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-021-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-021-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-071",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-071-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-071-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-071-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-072",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-072-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-072-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-072-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-031",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-031-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-031-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-031-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-032",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-032-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-032-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-032-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-033",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-033-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-033-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-033-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-034",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-034-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-034-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-034-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-035",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-035-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-035-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-035-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-036",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-036-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-036-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-036-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-037",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-037-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-037-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-037-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-038",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-038-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-038-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-038-1440.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "porch-railing-stairs",
+      "category": "metal-railings",
+      "category_label": {
+        "en": "Metal & Railings",
+        "es": "Metal y Barandales"
+      },
+      "title": {
+        "en": "Porch Railing & Stairs",
+        "es": "Barandal y Escalera de Pórtico"
+      },
+      "description": {
+        "en": "Black steel porch railing and stair system.",
+        "es": "Sistema de barandal y escalera de acero negro para pórtico."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 7,
+      "cover": "gates-fences-011",
+      "images": [
+        {
+          "slug": "gates-fences-011",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-011-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-011-960.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-012",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-012-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-012-960.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-069",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-069-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-069-960.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-070",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-070-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-070-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-026",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-026-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-026-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-027",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-027-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-027-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-028",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-028-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-028-960.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "chain-link-fence",
+      "category": "gates-fencing",
+      "category_label": {
+        "en": "Gates & Fencing",
+        "es": "Portones y Cercas"
+      },
+      "title": {
+        "en": "Chain Link Fence & Post Setting",
+        "es": "Cerca de Malla y Colado de Postes"
+      },
+      "description": {
+        "en": "Chain link fencing with full post-setting sequence: excavation, forms, concrete and leveling.",
+        "es": "Cerca de malla ciclónica con secuencia completa de colado de postes: excavación, cimbra, concreto y nivelación."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 44,
+      "cover": "gates-fences-046",
+      "images": [
+        {
+          "slug": "gates-fences-046",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-046-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-046-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-046-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-047",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-047-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-047-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-047-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-048",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-048-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-048-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-048-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-049",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-049-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-049-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-049-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-050",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-050-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-050-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-050-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-051",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-051-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-051-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-051-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-052",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-052-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-052-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-052-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-053",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-053-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-053-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-053-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-054",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-054-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-054-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-054-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-055",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-055-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-055-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-055-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-056",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-056-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-056-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-056-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-057",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-057-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-057-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-057-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-058",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-058-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-058-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-058-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-059",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-059-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-059-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-059-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-060",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-060-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-060-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-060-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-061",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-061-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-061-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-061-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-062",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-062-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-062-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-062-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-063",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-063-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-063-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-063-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-064",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-064-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-064-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-064-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-065",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-065-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-065-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-065-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-066",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-066-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-066-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-066-1440.webp"
+          }
+        },
+        {
+          "slug": "gates-fences-067",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/gates-fences/gates-fences-067-480.webp",
+            "960": "/media/projects/gates-fences/gates-fences-067-960.webp",
+            "1440": "/media/projects/gates-fences/gates-fences-067-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-001",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-001-480.webp",
+            "960": "/media/projects/site-work/site-work-001-960.webp",
+            "1440": "/media/projects/site-work/site-work-001-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-002",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-002-480.webp",
+            "960": "/media/projects/site-work/site-work-002-960.webp",
+            "1440": "/media/projects/site-work/site-work-002-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-003",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-003-480.webp",
+            "960": "/media/projects/site-work/site-work-003-960.webp",
+            "1440": "/media/projects/site-work/site-work-003-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-004",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-004-480.webp",
+            "960": "/media/projects/site-work/site-work-004-960.webp",
+            "1440": "/media/projects/site-work/site-work-004-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-005",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-005-480.webp",
+            "960": "/media/projects/site-work/site-work-005-960.webp",
+            "1440": "/media/projects/site-work/site-work-005-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-006",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-006-480.webp",
+            "960": "/media/projects/site-work/site-work-006-960.webp",
+            "1440": "/media/projects/site-work/site-work-006-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-007",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-007-480.webp",
+            "960": "/media/projects/site-work/site-work-007-960.webp",
+            "1440": "/media/projects/site-work/site-work-007-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-008",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-008-480.webp",
+            "960": "/media/projects/site-work/site-work-008-960.webp",
+            "1440": "/media/projects/site-work/site-work-008-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-009",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-009-480.webp",
+            "960": "/media/projects/site-work/site-work-009-960.webp",
+            "1440": "/media/projects/site-work/site-work-009-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-010",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-010-480.webp",
+            "960": "/media/projects/site-work/site-work-010-960.webp",
+            "1440": "/media/projects/site-work/site-work-010-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-011",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-011-480.webp",
+            "960": "/media/projects/site-work/site-work-011-960.webp",
+            "1440": "/media/projects/site-work/site-work-011-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-012",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-012-480.webp",
+            "960": "/media/projects/site-work/site-work-012-960.webp",
+            "1440": "/media/projects/site-work/site-work-012-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-013",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-013-480.webp",
+            "960": "/media/projects/site-work/site-work-013-960.webp",
+            "1440": "/media/projects/site-work/site-work-013-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-014",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-014-480.webp",
+            "960": "/media/projects/site-work/site-work-014-960.webp",
+            "1440": "/media/projects/site-work/site-work-014-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-015",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-015-480.webp",
+            "960": "/media/projects/site-work/site-work-015-960.webp",
+            "1440": "/media/projects/site-work/site-work-015-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-016",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-016-480.webp",
+            "960": "/media/projects/site-work/site-work-016-960.webp",
+            "1440": "/media/projects/site-work/site-work-016-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-017",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-017-480.webp",
+            "960": "/media/projects/site-work/site-work-017-960.webp",
+            "1440": "/media/projects/site-work/site-work-017-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-018",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-018-480.webp",
+            "960": "/media/projects/site-work/site-work-018-960.webp",
+            "1440": "/media/projects/site-work/site-work-018-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-019",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-019-480.webp",
+            "960": "/media/projects/site-work/site-work-019-960.webp",
+            "1440": "/media/projects/site-work/site-work-019-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-020",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-020-480.webp",
+            "960": "/media/projects/site-work/site-work-020-960.webp",
+            "1440": "/media/projects/site-work/site-work-020-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-021",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-021-480.webp",
+            "960": "/media/projects/site-work/site-work-021-960.webp",
+            "1440": "/media/projects/site-work/site-work-021-1440.webp"
+          }
+        },
+        {
+          "slug": "site-work-022",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/site-work/site-work-022-480.webp",
+            "960": "/media/projects/site-work/site-work-022-960.webp",
+            "1440": "/media/projects/site-work/site-work-022-1440.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-white-marble",
+      "category": "interior-stone",
+      "category_label": {
+        "en": "Interior, Stone & Bath",
+        "es": "Interiores, Piedra y Baño"
+      },
+      "title": {
+        "en": "White Marble Waterfall Kitchen",
+        "es": "Cocina en Mármol Blanco con Isla en Cascada"
+      },
+      "description": {
+        "en": "White marble island with waterfall edge over an exposed timber base. Undermount sink, matte black fixtures.",
+        "es": "Isla de mármol blanco con canto en cascada sobre base de madera expuesta. Tarja bajo cubierta y grifería negra mate."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 3,
+      "cover": "interior-remodel-001",
+      "images": [
+        {
+          "slug": "interior-remodel-001",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-001-480.webp"
+          }
+        },
+        {
+          "slug": "interior-remodel-002",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-002-480.webp"
+          }
+        },
+        {
+          "slug": "interior-remodel-003",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-003-480.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-quartzite-apron",
+      "category": "interior-stone",
+      "category_label": {
+        "en": "Interior, Stone & Bath",
+        "es": "Interiores, Piedra y Baño"
+      },
+      "title": {
+        "en": "Quartzite Kitchen with Apron Sink",
+        "es": "Cocina en Cuarcita con Tarja de Delantal"
+      },
+      "description": {
+        "en": "Full-slab quartzite counters, hexagon tile backsplash and black farmhouse apron sink.",
+        "es": "Cubiertas de cuarcita en losa completa, backsplash de mosaico hexagonal y tarja de delantal negra."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 3,
+      "cover": "interior-remodel-004",
+      "images": [
+        {
+          "slug": "interior-remodel-004",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-004-480.webp",
+            "960": "/media/projects/interior-remodel/interior-remodel-004-960.webp"
+          }
+        },
+        {
+          "slug": "interior-remodel-005",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-005-480.webp",
+            "960": "/media/projects/interior-remodel/interior-remodel-005-960.webp"
+          }
+        },
+        {
+          "slug": "interior-remodel-006",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-006-480.webp",
+            "960": "/media/projects/interior-remodel/interior-remodel-006-960.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "kitchen-fullheight-backsplash",
+      "category": "interior-stone",
+      "category_label": {
+        "en": "Interior, Stone & Bath",
+        "es": "Interiores, Piedra y Baño"
+      },
+      "title": {
+        "en": "Kitchen with Full-Height Stone Backsplash",
+        "es": "Cocina con Backsplash de Piedra de Altura Completa"
+      },
+      "description": {
+        "en": "Continuous-vein stone counters and full-height backsplash, walnut floating shelves, brass fixtures. Shown mid-install and finished.",
+        "es": "Cubiertas y backsplash de altura completa en piedra de veta continua, repisas flotantes de nogal y grifería en latón. Se muestra en instalación y terminada."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 5,
+      "cover": "interior-remodel-007",
+      "images": [
+        {
+          "slug": "interior-remodel-007",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-007-480.webp",
+            "960": "/media/projects/interior-remodel/interior-remodel-007-960.webp",
+            "1440": "/media/projects/interior-remodel/interior-remodel-007-1440.webp"
+          }
+        },
+        {
+          "slug": "interior-remodel-008",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-008-480.webp",
+            "960": "/media/projects/interior-remodel/interior-remodel-008-960.webp"
+          }
+        },
+        {
+          "slug": "interior-remodel-009",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-009-480.webp",
+            "960": "/media/projects/interior-remodel/interior-remodel-009-960.webp"
+          }
+        },
+        {
+          "slug": "interior-remodel-010",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-010-480.webp",
+            "960": "/media/projects/interior-remodel/interior-remodel-010-960.webp"
+          }
+        },
+        {
+          "slug": "interior-remodel-011",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/interior-remodel/interior-remodel-011-480.webp",
+            "960": "/media/projects/interior-remodel/interior-remodel-011-960.webp",
+            "1440": "/media/projects/interior-remodel/interior-remodel-011-1440.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "stone-vanities",
+      "category": "interior-stone",
+      "category_label": {
+        "en": "Interior, Stone & Bath",
+        "es": "Interiores, Piedra y Baño"
+      },
+      "title": {
+        "en": "Stone Vanities",
+        "es": "Tocadores en Piedra"
+      },
+      "description": {
+        "en": "Vanity tops in figured stone with full-height splash and brass fixtures.",
+        "es": "Cubiertas de tocador en piedra veteada con salpicadero de altura completa y grifería en latón."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 2,
+      "cover": "railings-stairs-decks-005",
+      "images": [
+        {
+          "slug": "railings-stairs-decks-005",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-005-480.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-013",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-013-480.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "bathroom-remodel",
+      "category": "interior-stone",
+      "category_label": {
+        "en": "Interior, Stone & Bath",
+        "es": "Interiores, Piedra y Baño"
+      },
+      "title": {
+        "en": "Bathroom Remodel",
+        "es": "Remodelación de Baño"
+      },
+      "description": {
+        "en": "Full bathroom remodel with large-format porcelain shower.",
+        "es": "Remodelación completa de baño con regadera en porcelanato de formato grande."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 4,
+      "cover": "railings-stairs-decks-016",
+      "images": [
+        {
+          "slug": "railings-stairs-decks-014",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-014-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-014-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-015",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-015-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-015-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-016",
+          "orientation": "landscape",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-016-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-016-960.webp",
+            "1440": "/media/projects/railings-stairs-decks/railings-stairs-decks-016-1440.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-017",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-017-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-017-960.webp"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "concrete-walkway",
+      "category": "concrete-sitework",
+      "category_label": {
+        "en": "Concrete & Site Work",
+        "es": "Concreto y Obra Exterior"
+      },
+      "title": {
+        "en": "Concrete Walkway",
+        "es": "Andador de Concreto"
+      },
+      "description": {
+        "en": "Demolition, excavation, forming, pour and finish of a new concrete walkway.",
+        "es": "Demolición, excavación, cimbra, colado y acabado de un andador de concreto nuevo."
+      },
+      "neighborhood": "PENDIENTE",
+      "year": 2026,
+      "_status_datos": "PENDIENTE — falta barrio, año exacto, alcance y materiales",
+      "meta": {
+        "timeline": "PENDIENTE",
+        "materials": "PENDIENTE",
+        "scope": "PENDIENTE"
+      },
+      "photo_count": 12,
+      "cover": "railings-stairs-decks-001",
+      "images": [
+        {
+          "slug": "railings-stairs-decks-001",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-001-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-001-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-002",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-002-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-002-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-003",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-003-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-003-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-004",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-004-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-004-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-006",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-006-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-006-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-007",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-007-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-007-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-008",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-008-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-008-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-009",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-009-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-009-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-010",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-010-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-010-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-011",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-011-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-011-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-012",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-012-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-012-960.webp"
+          }
+        },
+        {
+          "slug": "railings-stairs-decks-018",
+          "orientation": "portrait",
+          "srcset": {
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-018-480.webp",
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-018-960.webp"
+          }
+        }
+      ]
+    }
+  ]
+}

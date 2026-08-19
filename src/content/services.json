@@ -1,0 +1,155 @@
+{
+  "_README": "Estructura de servicios. Agregar un servicio nuevo (ej. A/C) es agregar un objeto aqui, no tocar codigo. status 'live' se renderiza completo; status 'pending' renderiza la tarjeta con badge PENDIENTE y sin galeria.",
+  "_generado": "2026-08-18",
+
+  "divisions": [
+    {
+      "id": "built",
+      "name": "STRUCTURE ART BUILT",
+      "tagline": {
+        "en": "Construction, renovation and specialty fabrication.",
+        "es": "Construcción, remodelación y fabricación especializada."
+      },
+      "tone": "charcoal",
+      "status": "live",
+      "services": [
+        {
+          "id": "metal-railings",
+          "name": { "en": "Metal & Railings", "es": "Metal y Barandales" },
+          "blurb": {
+            "en": "Railings, stairs and structural steel deck systems, fabricated in-house.",
+            "es": "Barandales, escaleras y sistemas estructurales de acero para decks, fabricados en taller propio."
+          },
+          "status": "live",
+          "photo_category": "railings-stairs-decks",
+          "project_count": 2
+        },
+        {
+          "id": "gates-fencing",
+          "name": { "en": "Gates & Fencing", "es": "Portones y Cercas" },
+          "blurb": {
+            "en": "Custom gates, chain link, vinyl and privacy fencing.",
+            "es": "Portones a medida, malla ciclónica, vinilo y cercas de privacidad."
+          },
+          "status": "live",
+          "photo_category": "gates-fences",
+          "project_count": 5
+        },
+        {
+          "id": "concrete-sitework",
+          "name": { "en": "Concrete & Site Work", "es": "Concreto y Obra Exterior" },
+          "blurb": {
+            "en": "Excavation, drainage and concrete foundation work.",
+            "es": "Excavación, drenaje y trabajo de cimentación en concreto."
+          },
+          "status": "live",
+          "photo_category": "site-work",
+          "project_count": 1
+        },
+        {
+          "id": "kitchen-bath-stone",
+          "name": { "en": "Kitchen, Bath & Stone", "es": "Cocina, Baño y Piedra" },
+          "blurb": {
+            "en": "Full kitchen and bath remodels. Slab stone and marble fabrication and install.",
+            "es": "Remodelación completa de cocina y baño. Fabricación e instalación de losa de piedra y mármol."
+          },
+          "status": "live",
+          "photo_category": "interior-remodel",
+          "project_count": 1,
+          "_nota": "Equipo dedicado exclusivamente a esta linea. Cobertura fotografica corta: 11 fotos de una sola sesion. Pedir 2-3 sesiones mas."
+        }
+      ]
+    },
+
+    {
+      "id": "studio",
+      "name": "STRUCTURE ART STUDIO",
+      "tagline": {
+        "en": "Furniture, cabinetry and woodwork built with intention.",
+        "es": "Muebles, ebanistería y carpintería hechos con intención."
+      },
+      "tone": "bone",
+      "status": "live",
+      "_nota": "La division es real y se renderiza completa. Lo pendiente son las FOTOS: los dos primeros proyectos siguen en proceso.",
+      "services": [
+        {
+          "id": "custom-furniture",
+          "name": { "en": "Custom Furniture", "es": "Muebles a Medida" },
+          "blurb": {
+            "en": "One-off pieces in wood and metal, built to the room.",
+            "es": "Piezas únicas en madera y metal, hechas a la medida del espacio."
+          },
+          "status": "pending",
+          "photo_category": null,
+          "project_count": 0
+        },
+        {
+          "id": "restoration",
+          "name": { "en": "Restoration", "es": "Restauración" },
+          "blurb": {
+            "en": "Bringing heirloom pieces back into daily use.",
+            "es": "Devolver piezas heredadas al uso diario."
+          },
+          "status": "pending",
+          "photo_category": null,
+          "project_count": 0
+        },
+        {
+          "id": "interior-woodwork",
+          "name": { "en": "Interior Woodwork", "es": "Carpintería de Interiores" },
+          "blurb": {
+            "en": "Custom doors, built-ins and architectural millwork.",
+            "es": "Puertas a medida, empotrados y carpintería arquitectónica."
+          },
+          "status": "pending",
+          "photo_category": null,
+          "project_count": 0
+        },
+        {
+          "id": "cabinetry",
+          "name": { "en": "Cabinetry", "es": "Ebanistería" },
+          "blurb": {
+            "en": "Cabinetry designed and fitted to the space.",
+            "es": "Ebanistería diseñada y ajustada al espacio."
+          },
+          "status": "pending",
+          "photo_category": null,
+          "project_count": 0
+        }
+      ]
+    }
+  ],
+
+  "in_progress": [
+    {
+      "id": "congo-desk",
+      "division": "studio",
+      "service": "restoration",
+      "status": "PENDIENTE — proyecto en curso",
+      "working_title": {
+        "en": "PENDIENTE — Heirloom Desk Restoration",
+        "es": "PENDIENTE — Restauración de Escritorio Heredado"
+      },
+      "_story_notes": "Mesa de madera del Congo, aprox. 100 años. Propiedad de la clienta, construida por su padre en 1975. Restaurada y reconvertida en escritorio. CONFIRMAR todos los datos con la clienta antes de publicar, y pedir permiso para contar la historia.",
+      "_photos_needed": ["antes", "proceso", "detalle de veta y juntas", "terminado en uso"],
+      "images": []
+    },
+    {
+      "id": "custom-wood-door",
+      "division": "studio",
+      "service": "interior-woodwork",
+      "status": "PENDIENTE — proyecto en curso",
+      "working_title": {
+        "en": "PENDIENTE — Custom Wood Door",
+        "es": "PENDIENTE — Puerta de Madera a Medida"
+      },
+      "_story_notes": "Misma clienta del escritorio. Encargo posterior. Sirve como prueba de cliente que regresa.",
+      "_photos_needed": ["proceso en taller", "instalada", "detalle de herrajes"],
+      "images": []
+    }
+  ],
+
+  "future": [
+    { "id": "hvac", "name": { "en": "A/C & HVAC", "es": "A/C y Climatización" }, "status": "future" }
+  ]
+}
