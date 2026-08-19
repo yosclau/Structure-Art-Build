@@ -47,21 +47,24 @@
           "slug": "gates-fences-001",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/gates-fences/gates-fences-001-480.webp"
+            "480": "/media/projects/gates-fences/gates-fences-001-480.webp",
+            "768": "/media/projects/gates-fences/gates-fences-001-768.webp"
           }
         },
         {
           "slug": "gates-fences-002",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/gates-fences/gates-fences-002-480.webp"
+            "480": "/media/projects/gates-fences/gates-fences-002-480.webp",
+            "576": "/media/projects/gates-fences/gates-fences-002-576.webp"
           }
         },
         {
           "slug": "gates-fences-003",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/gates-fences/gates-fences-003-480.webp"
+            "480": "/media/projects/gates-fences/gates-fences-003-480.webp",
+            "768": "/media/projects/gates-fences/gates-fences-003-768.webp"
           }
         },
         {
@@ -69,14 +72,16 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/gates-fences/gates-fences-004-480.webp",
-            "960": "/media/projects/gates-fences/gates-fences-004-960.webp"
+            "960": "/media/projects/gates-fences/gates-fences-004-960.webp",
+            "1024": "/media/projects/gates-fences/gates-fences-004-1024.webp"
           }
         },
         {
           "slug": "gates-fences-005",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/gates-fences/gates-fences-005-480.webp"
+            "480": "/media/projects/gates-fences/gates-fences-005-480.webp",
+            "576": "/media/projects/gates-fences/gates-fences-005-576.webp"
           }
         },
         {
@@ -84,14 +89,16 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/gates-fences/gates-fences-006-480.webp",
-            "960": "/media/projects/gates-fences/gates-fences-006-960.webp"
+            "960": "/media/projects/gates-fences/gates-fences-006-960.webp",
+            "1024": "/media/projects/gates-fences/gates-fences-006-1024.webp"
           }
         },
         {
           "slug": "gates-fences-007",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/gates-fences/gates-fences-007-480.webp"
+            "480": "/media/projects/gates-fences/gates-fences-007-480.webp",
+            "768": "/media/projects/gates-fences/gates-fences-007-768.webp"
           }
         },
         {
@@ -99,7 +106,8 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/gates-fences/gates-fences-008-480.webp",
-            "960": "/media/projects/gates-fences/gates-fences-008-960.webp"
+            "960": "/media/projects/gates-fences/gates-fences-008-960.webp",
+            "1024": "/media/projects/gates-fences/gates-fences-008-1024.webp"
           }
         },
         {
@@ -107,7 +115,8 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-019-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-019-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-019-960.webp",
+            "1024": "/media/projects/railings-stairs-decks/railings-stairs-decks-019-1024.webp"
           }
         },
         {
@@ -115,35 +124,40 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-020-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-020-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-020-960.webp",
+            "1024": "/media/projects/railings-stairs-decks/railings-stairs-decks-020-1024.webp"
           }
         },
         {
           "slug": "railings-stairs-decks-021",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-021-480.webp"
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-021-480.webp",
+            "768": "/media/projects/railings-stairs-decks/railings-stairs-decks-021-768.webp"
           }
         },
         {
           "slug": "railings-stairs-decks-022",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-022-480.webp"
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-022-480.webp",
+            "576": "/media/projects/railings-stairs-decks/railings-stairs-decks-022-576.webp"
           }
         },
         {
           "slug": "railings-stairs-decks-023",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-023-480.webp"
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-023-480.webp",
+            "768": "/media/projects/railings-stairs-decks/railings-stairs-decks-023-768.webp"
           }
         },
         {
           "slug": "railings-stairs-decks-024",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-024-480.webp"
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-024-480.webp",
+            "576": "/media/projects/railings-stairs-decks/railings-stairs-decks-024-576.webp"
           }
         },
         {
@@ -856,7 +870,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/gates-fences/gates-fences-011-480.webp",
-            "960": "/media/projects/gates-fences/gates-fences-011-960.webp"
+            "960": "/media/projects/gates-fences/gates-fences-011-960.webp",
+            "1242": "/media/projects/gates-fences/gates-fences-011-1242.webp"
           }
         },
         {
@@ -864,7 +879,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/gates-fences/gates-fences-012-480.webp",
-            "960": "/media/projects/gates-fences/gates-fences-012-960.webp"
+            "960": "/media/projects/gates-fences/gates-fences-012-960.webp",
+            "1242": "/media/projects/gates-fences/gates-fences-012-1242.webp"
           }
         },
         {
@@ -872,7 +888,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/gates-fences/gates-fences-069-480.webp",
-            "960": "/media/projects/gates-fences/gates-fences-069-960.webp"
+            "960": "/media/projects/gates-fences/gates-fences-069-960.webp",
+            "1242": "/media/projects/gates-fences/gates-fences-069-1242.webp"
           }
         },
         {
@@ -880,7 +897,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/gates-fences/gates-fences-070-480.webp",
-            "960": "/media/projects/gates-fences/gates-fences-070-960.webp"
+            "960": "/media/projects/gates-fences/gates-fences-070-960.webp",
+            "1242": "/media/projects/gates-fences/gates-fences-070-1242.webp"
           }
         },
         {
@@ -888,7 +906,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-026-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-026-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-026-960.webp",
+            "1242": "/media/projects/railings-stairs-decks/railings-stairs-decks-026-1242.webp"
           }
         },
         {
@@ -896,7 +915,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-027-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-027-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-027-960.webp",
+            "1242": "/media/projects/railings-stairs-decks/railings-stairs-decks-027-1242.webp"
           }
         },
         {
@@ -904,7 +924,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-028-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-028-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-028-960.webp",
+            "1242": "/media/projects/railings-stairs-decks/railings-stairs-decks-028-1242.webp"
           }
         }
       ]
@@ -1363,21 +1384,24 @@
           "slug": "interior-remodel-001",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/interior-remodel/interior-remodel-001-480.webp"
+            "480": "/media/projects/interior-remodel/interior-remodel-001-480.webp",
+            "768": "/media/projects/interior-remodel/interior-remodel-001-768.webp"
           }
         },
         {
           "slug": "interior-remodel-002",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/interior-remodel/interior-remodel-002-480.webp"
+            "480": "/media/projects/interior-remodel/interior-remodel-002-480.webp",
+            "768": "/media/projects/interior-remodel/interior-remodel-002-768.webp"
           }
         },
         {
           "slug": "interior-remodel-003",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/interior-remodel/interior-remodel-003-480.webp"
+            "480": "/media/projects/interior-remodel/interior-remodel-003-480.webp",
+            "768": "/media/projects/interior-remodel/interior-remodel-003-768.webp"
           }
         }
       ]
@@ -1413,7 +1437,8 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/interior-remodel/interior-remodel-004-480.webp",
-            "960": "/media/projects/interior-remodel/interior-remodel-004-960.webp"
+            "960": "/media/projects/interior-remodel/interior-remodel-004-960.webp",
+            "1024": "/media/projects/interior-remodel/interior-remodel-004-1024.webp"
           }
         },
         {
@@ -1421,7 +1446,8 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/interior-remodel/interior-remodel-005-480.webp",
-            "960": "/media/projects/interior-remodel/interior-remodel-005-960.webp"
+            "960": "/media/projects/interior-remodel/interior-remodel-005-960.webp",
+            "1024": "/media/projects/interior-remodel/interior-remodel-005-1024.webp"
           }
         },
         {
@@ -1429,7 +1455,8 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/interior-remodel/interior-remodel-006-480.webp",
-            "960": "/media/projects/interior-remodel/interior-remodel-006-960.webp"
+            "960": "/media/projects/interior-remodel/interior-remodel-006-960.webp",
+            "1024": "/media/projects/interior-remodel/interior-remodel-006-1024.webp"
           }
         }
       ]
@@ -1474,7 +1501,8 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/interior-remodel/interior-remodel-008-480.webp",
-            "960": "/media/projects/interior-remodel/interior-remodel-008-960.webp"
+            "960": "/media/projects/interior-remodel/interior-remodel-008-960.webp",
+            "1024": "/media/projects/interior-remodel/interior-remodel-008-1024.webp"
           }
         },
         {
@@ -1482,7 +1510,8 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/interior-remodel/interior-remodel-009-480.webp",
-            "960": "/media/projects/interior-remodel/interior-remodel-009-960.webp"
+            "960": "/media/projects/interior-remodel/interior-remodel-009-960.webp",
+            "1024": "/media/projects/interior-remodel/interior-remodel-009-1024.webp"
           }
         },
         {
@@ -1490,7 +1519,8 @@
           "orientation": "landscape",
           "srcset": {
             "480": "/media/projects/interior-remodel/interior-remodel-010-480.webp",
-            "960": "/media/projects/interior-remodel/interior-remodel-010-960.webp"
+            "960": "/media/projects/interior-remodel/interior-remodel-010-960.webp",
+            "1024": "/media/projects/interior-remodel/interior-remodel-010-1024.webp"
           }
         },
         {
@@ -1534,14 +1564,16 @@
           "slug": "railings-stairs-decks-005",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-005-480.webp"
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-005-480.webp",
+            "768": "/media/projects/railings-stairs-decks/railings-stairs-decks-005-768.webp"
           }
         },
         {
           "slug": "railings-stairs-decks-013",
           "orientation": "portrait",
           "srcset": {
-            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-013-480.webp"
+            "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-013-480.webp",
+            "768": "/media/projects/railings-stairs-decks/railings-stairs-decks-013-768.webp"
           }
         }
       ]
@@ -1577,7 +1609,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-014-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-014-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-014-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-014-1200.webp"
           }
         },
         {
@@ -1585,7 +1618,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-015-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-015-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-015-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-015-1200.webp"
           }
         },
         {
@@ -1602,7 +1636,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-017-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-017-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-017-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-017-1200.webp"
           }
         }
       ]
@@ -1638,7 +1673,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-001-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-001-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-001-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-001-1200.webp"
           }
         },
         {
@@ -1646,7 +1682,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-002-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-002-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-002-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-002-1200.webp"
           }
         },
         {
@@ -1654,7 +1691,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-003-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-003-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-003-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-003-1200.webp"
           }
         },
         {
@@ -1662,7 +1700,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-004-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-004-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-004-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-004-1200.webp"
           }
         },
         {
@@ -1670,7 +1709,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-006-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-006-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-006-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-006-1200.webp"
           }
         },
         {
@@ -1678,7 +1718,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-007-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-007-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-007-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-007-1200.webp"
           }
         },
         {
@@ -1686,7 +1727,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-008-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-008-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-008-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-008-1200.webp"
           }
         },
         {
@@ -1694,7 +1736,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-009-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-009-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-009-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-009-1200.webp"
           }
         },
         {
@@ -1702,7 +1745,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-010-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-010-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-010-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-010-1200.webp"
           }
         },
         {
@@ -1710,7 +1754,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-011-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-011-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-011-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-011-1200.webp"
           }
         },
         {
@@ -1718,7 +1763,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-012-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-012-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-012-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-012-1200.webp"
           }
         },
         {
@@ -1726,7 +1772,8 @@
           "orientation": "portrait",
           "srcset": {
             "480": "/media/projects/railings-stairs-decks/railings-stairs-decks-018-480.webp",
-            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-018-960.webp"
+            "960": "/media/projects/railings-stairs-decks/railings-stairs-decks-018-960.webp",
+            "1200": "/media/projects/railings-stairs-decks/railings-stairs-decks-018-1200.webp"
           }
         }
       ]
