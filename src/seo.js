@@ -4,7 +4,7 @@ import { useLang } from './lang';
 
 // Dominio propio pendiente de confirmar. Mientras tanto, el default de Vercel.
 // Cuando exista dominio, definir REACT_APP_SITE_URL en Vercel; no hay que tocar codigo.
-const SITE = process.env.REACT_APP_SITE_URL || 'https://structure-art-build.vercel.app';
+const SITE = process.env.REACT_APP_SITE_URL || 'https://structure-art-otyl.vercel.app';
 
 function setMeta(attr, key, content) {
   let el = document.head.querySelector(`meta[${attr}="${key}"]`);

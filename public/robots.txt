@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /media/video/
 
-Sitemap: https://structure-art-build.vercel.app/sitemap.xml
+Sitemap: https://structure-art-otyl.vercel.app/sitemap.xml
