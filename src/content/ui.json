@@ -1,0 +1,388 @@
+{
+  "_README": "Todos los strings visibles del sitio, EN y ES. Ningun texto visible vive en componentes.",
+
+  "nav": {
+    "home": { "en": "Home", "es": "Inicio" },
+    "portfolio": { "en": "Portfolio", "es": "Portafolio" },
+    "services": { "en": "Services", "es": "Servicios" },
+    "about": { "en": "About", "es": "Nosotros" },
+    "contact": { "en": "Contact", "es": "Contacto" },
+    "trade": { "en": "Trade Partners", "es": "Aliados Comerciales" },
+    "privacy": { "en": "Privacy Policy", "es": "Política de Privacidad" },
+    "cta": { "en": "Start Your Vision", "es": "Empieza Tu Visión" },
+    "menu_open": { "en": "Open menu", "es": "Abrir menú" },
+    "menu_close": { "en": "Close menu", "es": "Cerrar menú" }
+  },
+
+  "hero": {
+    "title": { "en": "We Build What You Envision", "es": "Construimos Lo Que Imaginas" },
+    "sub": {
+      "en": "From ready-made to custom-built. Your budget. Our craftsmanship.",
+      "es": "De lo prefabricado a lo hecho a medida. Tu presupuesto. Nuestra artesanía."
+    },
+    "cta": { "en": "Start Your Vision", "es": "Empieza Tu Visión" },
+    "scroll": { "en": "Scroll", "es": "Desliza" },
+    "strip": { "en": "8 Years · Metal + Wood · Chicago", "es": "8 Años · Metal + Madera · Chicago" }
+  },
+
+  "how": {
+    "eyebrow": { "en": "How We Build", "es": "Cómo Construimos" },
+    "title": { "en": "From Ready-Made to Completely Custom", "es": "De Lo Prefabricado a Lo Completamente a Medida" },
+    "intro": {
+      "en": "Every project sits somewhere on a spectrum. We meet you where your vision and your budget live, and we build from there.",
+      "es": "Cada proyecto vive en un punto de un espectro. Te encontramos donde están tu visión y tu presupuesto, y construimos desde ahí."
+    },
+    "steps": [
+      {
+        "n": "01",
+        "name": { "en": "Ready Made", "es": "Prefabricado" },
+        "text": {
+          "en": "Quality manufactured components, installed with the same care as custom work.",
+          "es": "Componentes manufacturados de calidad, instalados con el mismo cuidado que la obra a medida."
+        }
+      },
+      {
+        "n": "02",
+        "name": { "en": "Elevated", "es": "Elevado" },
+        "text": {
+          "en": "Standard parts, modified and combined in our shop until they fit your space exactly.",
+          "es": "Piezas estándar, modificadas y combinadas en nuestro taller hasta ajustarse exactamente a tu espacio."
+        }
+      },
+      {
+        "n": "03",
+        "name": { "en": "Custom", "es": "A Medida" },
+        "text": {
+          "en": "Designed and fabricated from raw metal, wood and stone. One of one.",
+          "es": "Diseñado y fabricado desde el metal, la madera y la piedra en bruto. Único."
+        }
+      }
+    ]
+  },
+
+  "divisions": {
+    "eyebrow": { "en": "Two Divisions", "es": "Dos Divisiones" },
+    "explore": { "en": "Explore Services", "es": "Ver Servicios" },
+    "photo_pending_label": { "en": "Project photography in progress", "es": "Fotografía de proyecto en proceso" }
+  },
+
+  "featured": {
+    "eyebrow": { "en": "Selected Work", "es": "Obra Seleccionada" },
+    "title": { "en": "Built by Hand. Documented on Site.", "es": "Hecho a Mano. Documentado en Obra." },
+    "all": { "en": "View Full Portfolio", "es": "Ver Portafolio Completo" }
+  },
+
+  "approach": {
+    "eyebrow": { "en": "The Approach", "es": "El Enfoque" },
+    "title": { "en": "Process Is the Product", "es": "El Proceso Es el Producto" },
+    "body": {
+      "en": "Whether the part comes off a shelf or out of our shop, the ground work is the same: measure, excavate, form, pour, level, verify. What changes is how far we take the fabrication — never how carefully we set the foundation.",
+      "es": "Venga la pieza de un estante o de nuestro taller, el trabajo de base es el mismo: medir, excavar, cimbrar, colar, nivelar, verificar. Lo que cambia es hasta dónde llevamos la fabricación — nunca el cuidado con que asentamos la base."
+    },
+    "caption": {
+      "en": "Post setting sequence: excavation, forms, concrete, leveling.",
+      "es": "Secuencia de colado de postes: excavación, cimbra, concreto, nivelación."
+    }
+  },
+
+  "commercial": {
+    "eyebrow": { "en": "See How We Build", "es": "Mira Cómo Construimos" },
+    "title": { "en": "Metal. Wood. Construction. One Team.", "es": "Metal. Madera. Construcción. Un Solo Equipo." }
+  },
+
+  "jobsite": {
+    "eyebrow": { "en": "From the Job Site", "es": "Desde la Obra" },
+    "title": { "en": "Real Work, As It Happens", "es": "Obra Real, Mientras Sucede" },
+    "sub": {
+      "en": "Unfiltered clips straight from active projects.",
+      "es": "Clips sin filtro directo de proyectos activos."
+    },
+    "sound_on": { "en": "Sound on", "es": "Con sonido" },
+    "sound_off": { "en": "Sound off", "es": "Sin sonido" },
+    "reviews_title": { "en": "What Clients Post", "es": "Lo Que Publican los Clientes" },
+    "reviews_pending": { "en": "Client reviews", "es": "Reseñas de clientes" },
+    "captions": [
+      { "en": "Steel railing fabrication", "es": "Fabricación de barandal de acero" },
+      { "en": "On-site installation", "es": "Instalación en obra" },
+      { "en": "Welding in the shop", "es": "Soldadura en taller" },
+      { "en": "Fence line going up", "es": "Levantando la línea de cerca" },
+      { "en": "Finish work", "es": "Trabajo de acabado" },
+      { "en": "Job site progress", "es": "Avance en obra" }
+    ]
+  },
+
+  "b2b": {
+    "band": { "en": "For General Contractors & Builders", "es": "Para Contratistas Generales y Constructoras" },
+    "eyebrow": { "en": "Trade Partners", "es": "Aliados Comerciales" },
+    "title": { "en": "A Fabrication Partner You Can Schedule Around", "es": "Un Socio de Fabricación Con El Que Puedes Programar" },
+    "points": [
+      {
+        "name": { "en": "In-House Shop", "es": "Taller Propio" },
+        "text": {
+          "en": "Metal and wood fabrication under one roof. No middlemen on your critical path.",
+          "es": "Fabricación de metal y madera bajo un mismo techo. Sin intermediarios en tu ruta crítica."
+        }
+      },
+      {
+        "name": { "en": "Site-Ready Crews", "es": "Cuadrillas Listas Para Obra" },
+        "text": {
+          "en": "Residential and multifamily experience, from layout to final install.",
+          "es": "Experiencia residencial y multifamiliar, del trazo a la instalación final."
+        }
+      },
+      {
+        "name": { "en": "Documentation", "es": "Documentación" },
+        "text": {
+          "en": "Certificate of insurance available on request.",
+          "es": "Certificado de seguro disponible a solicitud."
+        }
+      }
+    ],
+    "cta": { "en": "Partner With Us", "es": "Trabaja Con Nosotros" }
+  },
+
+  "testimonials": {
+    "eyebrow": { "en": "Word of Mouth", "es": "De Boca en Boca" },
+    "title": { "en": "What Clients Say", "es": "Lo Que Dicen los Clientes" },
+    "pending": { "en": "Client testimonials", "es": "Testimonios de clientes" }
+  },
+
+  "final": {
+    "title": { "en": "You Bring the Vision. We'll Find the Way to Build It.", "es": "Tú Traes la Visión. Nosotros Encontramos la Forma de Construirla." },
+    "cta": { "en": "Start Your Vision", "es": "Empieza Tu Visión" }
+  },
+
+  "portfolio": {
+    "eyebrow": { "en": "Portfolio", "es": "Portafolio" },
+    "title": { "en": "Real Projects, Real Process", "es": "Proyectos Reales, Proceso Real" },
+    "sub": {
+      "en": "Every photo below was taken on our job sites. No stock, no renders.",
+      "es": "Cada foto de abajo fue tomada en nuestras obras. Sin stock, sin renders."
+    },
+    "filter_all": { "en": "All", "es": "Todos" },
+    "photos": { "en": "photos", "es": "fotos" },
+    "view": { "en": "View Project", "es": "Ver Proyecto" }
+  },
+
+  "detail": {
+    "back": { "en": "All Projects", "es": "Todos los Proyectos" },
+    "timeline": { "en": "Timeline", "es": "Tiempo de Obra" },
+    "materials": { "en": "Materials", "es": "Materiales" },
+    "scope": { "en": "Scope", "es": "Alcance" },
+    "gallery": { "en": "Full Project Gallery", "es": "Galería Completa del Proyecto" },
+    "gallery_sub": {
+      "en": "In chronological order, from ground work to finish.",
+      "es": "En orden cronológico, del trabajo de base al acabado."
+    },
+    "related": { "en": "Related Projects", "es": "Proyectos Relacionados" },
+    "not_found": { "en": "Project not found.", "es": "Proyecto no encontrado." },
+    "meta_pending": { "en": "Project details", "es": "Detalles del proyecto" },
+    "lightbox_close": { "en": "Close", "es": "Cerrar" },
+    "lightbox_prev": { "en": "Previous image", "es": "Imagen anterior" },
+    "lightbox_next": { "en": "Next image", "es": "Imagen siguiente" }
+  },
+
+  "services_page": {
+    "eyebrow": { "en": "Services", "es": "Servicios" },
+    "title": { "en": "Two Divisions. One Standard.", "es": "Dos Divisiones. Un Solo Estándar." },
+    "sub": {
+      "en": "Construction and fabrication under Structure Art Built. Furniture and woodwork under Structure Art Studio.",
+      "es": "Construcción y fabricación bajo Structure Art Built. Muebles y carpintería bajo Structure Art Studio."
+    },
+    "how_title": { "en": "How It Works", "es": "Cómo Funciona" },
+    "see_work": { "en": "See This Work", "es": "Ver Esta Obra" },
+    "coming": { "en": "First projects in progress", "es": "Primeros proyectos en proceso" }
+  },
+
+  "about_page": {
+    "process_eyebrow": { "en": "The Process", "es": "El Proceso" },
+    "process_title": { "en": "Four Steps, Every Time", "es": "Cuatro Pasos, Siempre" },
+    "team_eyebrow": { "en": "The Team", "es": "El Equipo" },
+    "team_title": { "en": "The Hands Behind the Work", "es": "Las Manos Detrás de la Obra" },
+    "team_pending": { "en": "Team photography", "es": "Fotografía del equipo" },
+    "portrait_pending": { "en": "Portrait of Adrián", "es": "Retrato de Adrián" }
+  },
+
+  "contact_page": {
+    "eyebrow": { "en": "Contact", "es": "Contacto" },
+    "title": { "en": "Tell Us What You Envision", "es": "Cuéntanos Qué Imaginas" },
+    "sub": {
+      "en": "Send the form or reach us directly. We answer in English and Spanish.",
+      "es": "Envía el formulario o contáctanos directo. Respondemos en inglés y español."
+    },
+    "direct_title": { "en": "Direct", "es": "Directo" },
+    "call": { "en": "Call", "es": "Llamar" },
+    "map_title": { "en": "Service Area", "es": "Zona de Servicio" },
+    "map_text": { "en": "Chicago and surrounding areas", "es": "Chicago y alrededores" }
+  },
+
+  "form": {
+    "name": { "en": "Name", "es": "Nombre" },
+    "phone": { "en": "Phone", "es": "Teléfono" },
+    "email": { "en": "Email", "es": "Correo Electrónico" },
+    "company": { "en": "Company", "es": "Empresa" },
+    "project_type": { "en": "Project Type", "es": "Tipo de Proyecto" },
+    "project_placeholder": { "en": "Select one", "es": "Elige una opción" },
+    "types": [
+      { "id": "metal-railings", "en": "Metal & Railings", "es": "Metal y Barandales" },
+      { "id": "gates-fencing", "en": "Gates & Fencing", "es": "Portones y Cercas" },
+      { "id": "interior-stone", "en": "Kitchen, Bath & Stone", "es": "Cocina, Baño y Piedra" },
+      { "id": "concrete-sitework", "en": "Concrete & Site Work", "es": "Concreto y Obra Exterior" },
+      { "id": "furniture-woodwork", "en": "Furniture & Woodwork", "es": "Muebles y Carpintería" },
+      { "id": "other", "en": "Other", "es": "Otro" }
+    ],
+    "budget": { "en": "Budget Range", "es": "Rango de Presupuesto" },
+    "budget_placeholder": { "en": "Select a range", "es": "Elige un rango" },
+    "budgets": [
+      { "id": "b1", "en": "Under $5,000", "es": "Menos de $5,000" },
+      { "id": "b2", "en": "$5,000 – $15,000", "es": "$5,000 – $15,000" },
+      { "id": "b3", "en": "$15,000 – $40,000", "es": "$15,000 – $40,000" },
+      { "id": "b4", "en": "Over $40,000", "es": "Más de $40,000" },
+      { "id": "b5", "en": "Not sure yet", "es": "Aún no lo sé" }
+    ],
+    "message": { "en": "Message", "es": "Mensaje" },
+    "message_placeholder": {
+      "en": "Tell us about your project…",
+      "es": "Cuéntanos sobre tu proyecto…"
+    },
+    "send": { "en": "Send Message", "es": "Enviar Mensaje" },
+    "sending": { "en": "Sending…", "es": "Enviando…" },
+    "success": {
+      "en": "Message sent. We'll get back to you shortly.",
+      "es": "Mensaje enviado. Te respondemos en breve."
+    },
+    "error": {
+      "en": "Something went wrong. Please try again or reach us directly.",
+      "es": "Algo salió mal. Intenta de nuevo o contáctanos directo."
+    },
+    "required": { "en": "This field is required", "es": "Este campo es obligatorio" },
+    "invalid_email": { "en": "Enter a valid email", "es": "Ingresa un correo válido" }
+  },
+
+  "trade_page": {
+    "eyebrow": { "en": "Trade Partners", "es": "Aliados Comerciales" },
+    "title": { "en": "Fabrication and Install, On Your Schedule", "es": "Fabricación e Instalación, En Tu Calendario" },
+    "sub": {
+      "en": "We work with general contractors, builders and property managers on residential and multifamily projects.",
+      "es": "Trabajamos con contratistas generales, constructoras y administradores de propiedades en proyectos residenciales y multifamiliares."
+    },
+    "capabilities_title": { "en": "Capabilities", "es": "Capacidades" },
+    "capabilities": [
+      { "en": "Structural and ornamental steel: railings, stairs, gates", "es": "Acero estructural y ornamental: barandales, escaleras, portones" },
+      { "en": "Wood fencing, decking and carpentry", "es": "Cercas de madera, decks y carpintería" },
+      { "en": "Concrete flatwork and post setting", "es": "Concreto y colado de postes" },
+      { "en": "Stone and marble fabrication and install", "es": "Fabricación e instalación de piedra y mármol" },
+      { "en": "Kitchen and bath build-outs", "es": "Remodelación de cocina y baño" }
+    ],
+    "logistics_title": { "en": "Working With Us", "es": "Trabajar Con Nosotros" },
+    "logistics": [
+      { "en": "In-house metal and wood shop in Chicago", "es": "Taller propio de metal y madera en Chicago" },
+      { "en": "Lead times quoted per project, in writing", "es": "Tiempos de entrega cotizados por proyecto, por escrito" },
+      { "en": "Certificate of insurance available on request", "es": "Certificado de seguro disponible a solicitud" },
+      { "en": "Bilingual crew: English and Spanish", "es": "Equipo bilingüe: inglés y español" }
+    ],
+    "form_title": { "en": "Start a Conversation", "es": "Inicia una Conversación" }
+  },
+
+  "privacy_page": {
+    "title": { "en": "Privacy Policy", "es": "Política de Privacidad" },
+    "updated": { "en": "Last updated: August 2026", "es": "Última actualización: agosto de 2026" },
+    "sections": [
+      {
+        "h": { "en": "What we collect", "es": "Qué recopilamos" },
+        "p": {
+          "en": "When you submit a form on this site we receive the information you type: your name, phone number, email address and project details. We do not collect anything you don't give us.",
+          "es": "Cuando envías un formulario en este sitio recibimos la información que escribes: tu nombre, teléfono, correo y detalles del proyecto. No recopilamos nada que no nos des."
+        }
+      },
+      {
+        "h": { "en": "How we use it", "es": "Cómo la usamos" },
+        "p": {
+          "en": "We use your contact information only to respond to your inquiry and manage your project. We do not sell it, rent it, or share it with third parties for marketing.",
+          "es": "Usamos tu información de contacto solo para responder tu consulta y gestionar tu proyecto. No la vendemos, rentamos ni compartimos con terceros para marketing."
+        }
+      },
+      {
+        "h": { "en": "Form processing", "es": "Procesamiento de formularios" },
+        "p": {
+          "en": "Forms on this site are processed by Formspree, which stores submissions so we can read and answer them. See Formspree's privacy policy for details on their handling of data.",
+          "es": "Los formularios de este sitio se procesan con Formspree, que almacena los envíos para que podamos leerlos y responderlos. Consulta la política de privacidad de Formspree para el detalle de su manejo de datos."
+        }
+      },
+      {
+        "h": { "en": "Cookies and analytics", "es": "Cookies y analítica" },
+        "p": {
+          "en": "This site stores a single preference in your browser: your language choice. We do not run advertising trackers.",
+          "es": "Este sitio guarda una sola preferencia en tu navegador: tu idioma. No usamos rastreadores publicitarios."
+        }
+      },
+      {
+        "h": { "en": "Contact", "es": "Contacto" },
+        "p": {
+          "en": "Questions about this policy? Write to us and we'll answer directly.",
+          "es": "¿Preguntas sobre esta política? Escríbenos y respondemos directo."
+        }
+      }
+    ]
+  },
+
+  "footer": {
+    "blurb": {
+      "en": "General contractor with an in-house metal and wood shop in Chicago. From ready-made to custom-built.",
+      "es": "Contratista general con taller propio de metal y madera en Chicago. De lo prefabricado a lo hecho a medida."
+    },
+    "nav_title": { "en": "Navigate", "es": "Navega" },
+    "services_title": { "en": "Services", "es": "Servicios" },
+    "contact_title": { "en": "Contact", "es": "Contacto" },
+    "follow_title": { "en": "Follow", "es": "Síguenos" },
+    "rights": { "en": "All rights reserved.", "es": "Todos los derechos reservados." }
+  },
+
+  "mobilebar": {
+    "call": { "en": "Call", "es": "Llamar" },
+    "whatsapp": { "en": "WhatsApp", "es": "WhatsApp" },
+    "quote": { "en": "Get a Quote", "es": "Cotizar" }
+  },
+
+  "pending_ui": {
+    "badge": { "en": "Coming soon", "es": "Próximamente" }
+  },
+
+  "meta": {
+    "home_title": { "en": "Structure Art — We Build What You Envision | Chicago", "es": "Structure Art — Construimos Lo Que Imaginas | Chicago" },
+    "home_desc": {
+      "en": "General contractor with an in-house metal and wood shop in Chicago. Railings, gates, fencing, concrete, kitchen, bath and stone. From ready-made to custom-built.",
+      "es": "Contratista general con taller propio de metal y madera en Chicago. Barandales, portones, cercas, concreto, cocina, baño y piedra. De lo prefabricado a lo hecho a medida."
+    },
+    "portfolio_title": { "en": "Portfolio — Structure Art", "es": "Portafolio — Structure Art" },
+    "portfolio_desc": {
+      "en": "Real projects photographed on site: metal railings, gates and fencing, interior stone work and concrete in Chicago.",
+      "es": "Proyectos reales fotografiados en obra: barandales de metal, portones y cercas, piedra interior y concreto en Chicago."
+    },
+    "services_title": { "en": "Services — Structure Art", "es": "Servicios — Structure Art" },
+    "services_desc": {
+      "en": "Structure Art Built: construction, metal, concrete and stone. Structure Art Studio: custom furniture, cabinetry and woodwork.",
+      "es": "Structure Art Built: construcción, metal, concreto y piedra. Structure Art Studio: muebles a medida, ebanistería y carpintería."
+    },
+    "about_title": { "en": "About Adrián — Structure Art", "es": "Sobre Adrián — Structure Art" },
+    "about_desc": {
+      "en": "The craftsman behind Structure Art: 8 years building in metal and wood in Chicago.",
+      "es": "El artesano detrás de Structure Art: 8 años construyendo en metal y madera en Chicago."
+    },
+    "contact_title": { "en": "Contact — Structure Art", "es": "Contacto — Structure Art" },
+    "contact_desc": {
+      "en": "Tell us about your project. Call, WhatsApp or send the form. English and Spanish.",
+      "es": "Cuéntanos de tu proyecto. Llama, escribe por WhatsApp o envía el formulario. Inglés y español."
+    },
+    "trade_title": { "en": "Trade Partners — Structure Art", "es": "Aliados Comerciales — Structure Art" },
+    "trade_desc": {
+      "en": "Fabrication and installation partner for general contractors and builders in Chicago. Metal, wood, concrete and stone.",
+      "es": "Socio de fabricación e instalación para contratistas y constructoras en Chicago. Metal, madera, concreto y piedra."
+    },
+    "privacy_title": { "en": "Privacy Policy — Structure Art", "es": "Política de Privacidad — Structure Art" },
+    "privacy_desc": {
+      "en": "How Structure Art handles the information you share through this site.",
+      "es": "Cómo maneja Structure Art la información que compartes en este sitio."
+    }
+  }
+}

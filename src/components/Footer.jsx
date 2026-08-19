@@ -1,118 +1,85 @@
 import { Link } from 'react-router-dom';
-import { LOGO } from '../images';
 import { useLang } from '../lang';
+import { CONTACT, isPending, SHOW_PENDING, logMissing } from '../config';
+import services from '../content/services.json';
 
-const IGIcon = () => (
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-    <circle cx="12" cy="12" r="4"/>
-    <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+const IconInstagram = () => (
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+    <rect x="3" y="3" width="18" height="18" rx="5" />
+    <circle cx="12" cy="12" r="4" />
+    <circle cx="17.2" cy="6.8" r="0.8" fill="currentColor" stroke="none" />
   </svg>
 );
-
-const FBIcon = () => (
-  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+const IconFacebook = () => (
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+    <path d="M14 8h2V5h-2a4 4 0 0 0-4 4v2H8v3h2v6h3v-6h2.2l.5-3H13V9a1 1 0 0 1 1-1z" />
   </svg>
 );
-
-const socialStyle = {
-  display:'inline-flex', alignItems:'center', justifyContent:'center',
-  width:38, height:38,
-  border:'1px solid rgba(196,163,90,0.25)',
-  color:'var(--gold)',
-  textDecoration:'none',
-  transition:'all .25s',
-  borderRadius:0,
-};
+const IconWhatsApp = () => (
+  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+    <path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z" />
+    <path d="M8.8 9.2c.3 2.6 3.4 5.4 6 5.9l1.2-1.2-1.9-1.3-1 .6a6.4 6.4 0 0 1-2.3-2.3l.6-1-1.3-1.9z" />
+  </svg>
+);
 
 export default function Footer() {
-  const { t } = useLang();
+  const { lang, L, ui } = useLang();
+
+  if (!SHOW_PENDING) {
+    if (isPending(CONTACT.license)) logMissing('numero de licencia', 'sin linea de licencia en footer hasta tener numero real');
+    if (isPending(CONTACT.yelp)) logMissing('URL de Yelp', 'icono omitido hasta tener destino real');
+  }
+
+  const serviceTags = services.divisions.flatMap((d) => d.services).map((s) => ({ id: s.id, name: L(s.name) }));
+
   return (
     <footer className="site-footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <img src={LOGO} alt="Structure Art" />
-          <p>{t.footer_p}</p>
-          <p className="footer-tagline">{t.footer_tagline}</p>
-          {/* Social icons */}
-          <div style={{display:'flex',gap:10,marginTop:20}}>
-            <a href="https://www.instagram.com/structure_art_built?igsh=MTJ2aHkzNHU5anI1Yg==" target="_blank" rel="noreferrer"
-              style={socialStyle}
-              onMouseEnter={e=>{e.currentTarget.style.background='var(--gold)';e.currentTarget.style.color='var(--navy)';}}
-              onMouseLeave={e=>{e.currentTarget.style.background='transparent';e.currentTarget.style.color='var(--gold)';}}>
-              <IGIcon/>
-            </a>
-            <a href="https://www.facebook.com/share/1AmXmGRe7j/?mibextid=wwXIfr" target="_blank" rel="noreferrer"
-              style={socialStyle}
-              onMouseEnter={e=>{e.currentTarget.style.background='var(--gold)';e.currentTarget.style.color='var(--navy)';}}
-              onMouseLeave={e=>{e.currentTarget.style.background='transparent';e.currentTarget.style.color='var(--gold)';}}>
-              <FBIcon/>
-            </a>
+          <img src="/media/brand/logo-on-black.webp" alt="Structure Art" />
+          <p>{L(ui.footer.blurb)}</p>
+        </div>
+
+        <div className="footer-col">
+          <h4>{L(ui.footer.nav_title)}</h4>
+          <ul>
+            <li><Link to={`/${lang}`}>{L(ui.nav.home)}</Link></li>
+            <li><Link to={`/${lang}/portfolio`}>{L(ui.nav.portfolio)}</Link></li>
+            <li><Link to={`/${lang}/services`}>{L(ui.nav.services)}</Link></li>
+            <li><Link to={`/${lang}/about`}>{L(ui.nav.about)}</Link></li>
+            <li><Link to={`/${lang}/contact`}>{L(ui.nav.contact)}</Link></li>
+            <li><Link to={`/${lang}/trade-partners`}>{L(ui.nav.trade)}</Link></li>
+          </ul>
+        </div>
+
+        <div className="footer-col">
+          <h4>{L(ui.footer.services_title)}</h4>
+          <ul className="footer-tags">
+            {serviceTags.map((s) => (
+              <li key={s.id}><Link to={`/${lang}/services`}>{s.name}</Link></li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="footer-col">
+          <h4>{L(ui.footer.contact_title)}</h4>
+          <ul>
+            <li><a href={CONTACT.phoneHref}>{CONTACT.phoneDisplay}</a></li>
+            <li><a href={`mailto:${CONTACT.email}`}>{CONTACT.email}</a></li>
+            <li><a href={CONTACT.instagram} target="_blank" rel="noreferrer">{CONTACT.instagramHandle}</a></li>
+          </ul>
+          <div className="footer-social" aria-label={L(ui.footer.follow_title)}>
+            <a href={CONTACT.instagram} target="_blank" rel="noreferrer" aria-label="Instagram"><IconInstagram /></a>
+            <a href={CONTACT.facebook} target="_blank" rel="noreferrer" aria-label="Facebook"><IconFacebook /></a>
+            <a href={CONTACT.whatsapp} target="_blank" rel="noreferrer" aria-label="WhatsApp"><IconWhatsApp /></a>
           </div>
         </div>
-        <div className="footer-col">
-          <h4>{t.footer_services}</h4>
-          <ul>
-            <li><Link to="/services">{t.nav_services}</Link></li>
-            <li><Link to="/services">Custom Metal Decks</Link></li>
-            <li><Link to="/services">Beam Reinforcement</Link></li>
-            <li><Link to="/services">Architectural Metal</Link></li>
-            <li><Link to="/services">Gates & Fences</Link></li>
-          </ul>
-        </div>
-        <div className="footer-col">
-          <h4>{t.footer_company}</h4>
-          <ul>
-            <li><Link to="/why-us">{t.nav_why}</Link></li>
-            <li><Link to="/portfolio">{t.nav_portfolio}</Link></li>
-            <li><Link to="/about">{t.nav_about}</Link></li>
-            <li><Link to="/contact">{t.nav_quote}</Link></li>
-          </ul>
-        </div>
-        <div className="footer-col">
-          <h4>{t.footer_contact}</h4>
-          <ul>
-            <li><a href="tel:4709148996">(470) 914-8996</a></li>
-            <li><a href="mailto:Structureartco@gmail.com">Structureartco@gmail.com</a></li>
-            <li>
-              <a href="https://www.instagram.com/structure_art_built?igsh=MTJ2aHkzNHU5anI1Yg==" target="_blank" rel="noreferrer"
-                style={{display:'flex',alignItems:'center',gap:8,color:'rgba(253,252,249,0.38)',textDecoration:'none',transition:'color .2s'}}
-                onMouseEnter={e=>e.currentTarget.style.color='var(--gold)'}
-                onMouseLeave={e=>e.currentTarget.style.color='rgba(253,252,249,0.38)'}>
-                <IGIcon/> @structure_art_built
-              </a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/share/1AmXmGRe7j/?mibextid=wwXIfr" target="_blank" rel="noreferrer"
-                style={{display:'flex',alignItems:'center',gap:8,color:'rgba(253,252,249,0.38)',textDecoration:'none',transition:'color .2s'}}
-                onMouseEnter={e=>e.currentTarget.style.color='var(--gold)'}
-                onMouseLeave={e=>e.currentTarget.style.color='rgba(253,252,249,0.38)'}>
-                <FBIcon/> Structure Art
-              </a>
-            </li>
-            <li><span style={{color:'rgba(253,252,249,0.38)'}}>Chicago, Illinois</span></li>
-          </ul>
-        </div>
       </div>
+
       <div className="footer-bottom">
-        <p>© 2025 Structure Art. <span>{t.footer_bottom1}</span> Chicago, IL.</p>
-        <div style={{display:'flex',gap:12,alignItems:'center'}}>
-          <a href="https://www.instagram.com/structure_art_built?igsh=MTJ2aHkzNHU5anI1Yg==" target="_blank" rel="noreferrer"
-            style={{color:'rgba(196,163,90,0.5)',transition:'color .2s'}}
-            onMouseEnter={e=>e.currentTarget.style.color='var(--gold)'}
-            onMouseLeave={e=>e.currentTarget.style.color='rgba(196,163,90,0.5)'}>
-            <IGIcon/>
-          </a>
-          <a href="https://www.facebook.com/share/1AmXmGRe7j/?mibextid=wwXIfr" target="_blank" rel="noreferrer"
-            style={{color:'rgba(196,163,90,0.5)',transition:'color .2s'}}
-            onMouseEnter={e=>e.currentTarget.style.color='var(--gold)'}
-            onMouseLeave={e=>e.currentTarget.style.color='rgba(196,163,90,0.5)'}>
-            <FBIcon/>
-          </a>
-        </div>
+        <p>© {new Date().getFullYear()} Structure Art. {L(ui.footer.rights)}</p>
+        <p><Link to={`/${lang}/privacy`}>{L(ui.nav.privacy)}</Link></p>
       </div>
     </footer>
   );
 }
-
