@@ -1,439 +1,147 @@
 import { Link } from 'react-router-dom';
+import { useLang } from '../lang';
+import { useMeta } from '../seo';
+import Img from '../components/Img';
+import Pending from '../components/Pending';
+import LeadForm from '../components/LeadForm';
 import useReveal from '../components/useReveal';
-import { SRV1, SRV2, SRV3, PORT1, HERO2 } from '../images';
+import services from '../content/services.json';
+import about from '../content/about.json';
+import projectsData from '../content/projects.json';
 
-const PRIMARY_SERVICE = {
-  num: '01',
-  img: HERO2,
-  featured: true,
-  label: 'PRIMARY OFFER',
-  title: 'Custom Metal Decks',
-  subtitle: 'Including integrated railings and stairs.',
-  desc: 'Structural steel deck systems designed and fabricated in-house. Every project includes the full system — deck platform, integrated railings, and stairs as needed. One team, one build, no weak points.',
-  tags: ['Anti-Slip Diamond Plate', 'Integrated Railings', 'Stairs Included', 'Custom Dimensions', 'Chicago-Based'],
-  points: [
-    'Full structural steel deck platform — custom dimensions',
-    'Integrated railing system, designed as part of the deck',
-    'Stairs fabricated and installed as part of the same system',
-    'Anti-slip diamond plate surface — built for Chicago weather',
-    'Powder-coated matte black finish, structural-grade',
-    'Residential and multi-unit properties — we handle both',
-  ],
+// Portada real por servicio BUILT: primer proyecto de la categoria homónima.
+function serviceCover(serviceId) {
+  const p = projectsData.projects.find((x) => x.category === serviceId);
+  if (!p) return null;
+  return { project: p, image: p.images.find((i) => i.slug === p.cover) || p.images[0] };
+}
+
+// Los ids de servicio BUILT y las categorias de proyecto no coinciden 1:1.
+const SERVICE_TO_CATEGORY = {
+  'metal-railings': 'metal-railings',
+  'gates-fencing': 'gates-fencing',
+  'concrete-sitework': 'concrete-sitework',
+  'kitchen-bath-stone': 'interior-stone',
 };
 
-const SUPPORTING_SERVICES = [
-  {
-    num: '02',
-    img: SRV1,
-    title: 'Structural Steel Installation',
-    desc: 'Full structural steel installation for residential and commercial properties. Foundation anchoring to top rail — engineered for load, longevity, and Chicago weather.',
-    tags: ['Residential', 'Commercial', 'Load-Bearing'],
-  },
-  {
-    num: '03',
-    img: SRV2,
-    title: 'Beam Installation & Reinforcement',
-    desc: 'Structural beam installation and reinforcement for existing structures. No shortcuts on load-bearing work.',
-    tags: ['Structural', 'Load-Bearing', 'Reinforcement'],
-  },
-  {
-    num: '04',
-    img: PORT1,
-    title: 'Architectural Metal Systems',
-    desc: 'Custom railings, handrail systems, canopies, and structural entry systems. Precision-fabricated to complement your architecture.',
-    tags: ['Railings', 'Canopies', 'Entry Systems'],
-  },
-  {
-    num: '05',
-    img: SRV3,
-    title: 'High-End Gates & Fences',
-    desc: 'Custom steel gates and privacy fence systems with wood or composite panel integration. Built for Chicago wind loads.',
-    tags: ['Steel + Wood', 'Privacy Systems', 'Security'],
-  },
-];
-
 export default function Services() {
+  const { lang, L, ui } = useLang();
+  useMeta({ title: L(ui.meta.services_title), description: L(ui.meta.services_desc) });
   useReveal();
 
+  const built = services.divisions.find((d) => d.id === 'built');
+  const studio = services.divisions.find((d) => d.id === 'studio');
+
   return (
-    <div className="page">
-      <div className="page-banner">
-        <div className="page-banner-grid" />
-        <div className="page-banner-inner">
-          <p className="section-label reveal">What We Build</p>
-          <h1
-            className="reveal"
-            style={{
-              fontFamily: "'Cinzel',serif",
-              fontSize: 'clamp(44px,6vw,88px)',
-              fontWeight: 400,
-              letterSpacing: 3,
-              lineHeight: 1,
-            }}
-          >
-            Custom Metal{' '}
-            <em
-              style={{
-                fontFamily: "'Cormorant Garamond',serif",
-                fontStyle: 'italic',
-                color: 'var(--gold)',
-                fontWeight: 300,
-              }}
-            >
-              Decks
-            </em>
-          </h1>
-          <p
-            className="reveal"
-            style={{
-              fontFamily: "'Cormorant Garamond',serif",
-              fontSize: 19,
-              fontWeight: 300,
-              color: 'var(--gray)',
-              marginTop: 16,
-              maxWidth: 520,
-            }}
-          >
-            Structural steel deck systems with integrated railings and stairs. Fabricated in-house. Built for Chicago.
-          </p>
+    <>
+      <header className="page-head s-bone">
+        <div className="sec-inner">
+          <span className="eyebrow">{L(ui.services_page.eyebrow)}</span>
+          <h1 className="display-2">{L(ui.services_page.title)}</h1>
+          <p className="lede" style={{ marginTop: 16 }}>{L(ui.services_page.sub)}</p>
         </div>
-      </div>
+      </header>
 
-      <section style={{ padding: '100px 72px', position: 'relative', zIndex: 2 }} className="srv-main">
-        <div style={{ maxWidth: 1280, margin: '0 auto' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 48 }}>
-            <div style={{ width: 48, height: 1, background: 'var(--gold)' }} />
-            <span
-              style={{
-                fontFamily: "'Cinzel',serif",
-                fontSize: 9,
-                letterSpacing: 4,
-                color: 'var(--gold)',
-                textTransform: 'uppercase',
-              }}
-            >
-              Primary Offer
-            </span>
-            <div style={{ flex: 1, height: 1, background: 'rgba(196,163,90,0.15)' }} />
+      {/* BUILT — charcoal */}
+      <section className="sec s-charcoal">
+        <div className="sec-inner">
+          <div className="sec-head reveal">
+            <span className="eyebrow">{built.name}</span>
+            <h2 className="display-2">{L(built.tagline)}</h2>
           </div>
-
-          <div
-            className="reveal"
-            style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
-              gap: 80,
-              alignItems: 'center',
-              marginBottom: 80,
-            }}
-          >
-            <div style={{ position: 'relative' }}>
-              <img
-                src={PRIMARY_SERVICE.img}
-                alt={PRIMARY_SERVICE.title}
-                style={{
-                  width: '100%',
-                  display: 'block',
-                  objectFit: 'cover',
-                  height: 480,
-                  border: '1px solid rgba(196,163,90,0.2)',
-                }}
-              />
-              <div
-                style={{
-                  position: 'absolute',
-                  top: 20,
-                  left: 20,
-                  background: 'var(--gold)',
-                  color: 'var(--navy)',
-                  fontFamily: "'Cinzel',serif",
-                  fontSize: 8,
-                  letterSpacing: 3,
-                  padding: '6px 14px',
-                }}
-              >
-                CUSTOM FABRICATED
-              </div>
-            </div>
-
-            <div>
-              <h2
-                style={{
-                  fontFamily: "'Cinzel',serif",
-                  fontSize: 'clamp(28px,3vw,44px)',
-                  fontWeight: 400,
-                  letterSpacing: 2,
-                  lineHeight: 1.1,
-                  marginBottom: 8,
-                }}
-              >
-                {PRIMARY_SERVICE.title}
-              </h2>
-
-              <p
-                style={{
-                  fontFamily: "'Cormorant Garamond',serif",
-                  fontSize: 20,
-                  fontStyle: 'italic',
-                  color: 'var(--gold)',
-                  marginBottom: 24,
-                  fontWeight: 300,
-                }}
-              >
-                {PRIMARY_SERVICE.subtitle}
-              </p>
-
-              <div style={{ width: 40, height: 1, background: 'var(--gold)', marginBottom: 24 }} />
-
-              <p style={{ fontSize: 15, lineHeight: 1.9, color: 'var(--gray)', marginBottom: 32 }}>
-                {PRIMARY_SERVICE.desc}
-              </p>
-
-              <ul style={{ listStyle: 'none', marginBottom: 36 }}>
-                {PRIMARY_SERVICE.points.map((p) => (
-                  <li
-                    key={p}
-                    style={{
-                      display: 'flex',
-                      alignItems: 'flex-start',
-                      gap: 12,
-                      marginBottom: 12,
-                      fontSize: 14,
-                      color: 'rgba(253,252,249,0.75)',
-                    }}
-                  >
-                    <span style={{ color: 'var(--gold)', flexShrink: 0, marginTop: 2 }}>◆</span>
-                    {p}
-                  </li>
-                ))}
-              </ul>
-
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: 36 }}>
-                {PRIMARY_SERVICE.tags.map((t) => (
-                  <span
-                    key={t}
-                    style={{
-                      fontSize: 9,
-                      letterSpacing: 2,
-                      textTransform: 'uppercase',
-                      border: '1px solid rgba(196,163,90,0.25)',
-                      color: 'var(--gold)',
-                      padding: '5px 12px',
-                    }}
-                  >
-                    {t}
-                  </span>
-                ))}
-              </div>
-
-              <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
-                <Link to="/contact" className="btn-primary">
-                  Request a Deck Quote →
-                </Link>
-                <Link to="/portfolio" className="btn-outline">
-                  View Deck Projects
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className="reveal"
-            style={{
-              background: 'rgba(196,163,90,0.04)',
-              border: '1px solid rgba(196,163,90,0.15)',
-              padding: '28px 36px',
-              display: 'flex',
-              alignItems: 'center',
-              gap: 20,
-              marginBottom: 100,
-            }}
-          >
-            <span style={{ color: 'var(--gold)', fontSize: 18, flexShrink: 0 }}>◆</span>
-            <p
-              style={{
-                fontFamily: "'Cormorant Garamond',serif",
-                fontSize: 17,
-                fontStyle: 'italic',
-                color: 'rgba(253,252,249,0.65)',
-                lineHeight: 1.6,
-              }}
-            >
-              We work best with property owners, contractors, and developers looking for precision-fabricated steel deck systems.
-              Our projects typically start at <strong style={{ color: 'var(--cream)', fontStyle: 'normal' }}>$8,000</strong> — if
-              you're looking for the lowest bid, we're probably not the right fit. If you're looking for the right build, we are.
-            </p>
-          </div>
-
-          <div style={{ display: 'flex', alignItems: 'center', gap: 14, marginBottom: 48 }}>
-            <div style={{ width: 48, height: 1, background: 'rgba(196,163,90,0.3)' }} />
-            <span
-              style={{
-                fontFamily: "'Cinzel',serif",
-                fontSize: 9,
-                letterSpacing: 4,
-                color: 'rgba(196,163,90,0.6)',
-                textTransform: 'uppercase',
-              }}
-            >
-              Additional Services
-            </span>
-            <div style={{ flex: 1, height: 1, background: 'rgba(196,163,90,0.1)' }} />
-          </div>
-
-          <p
-            style={{
-              fontFamily: "'Cormorant Garamond',serif",
-              fontSize: 17,
-              color: 'var(--gray)',
-              marginBottom: 48,
-              maxWidth: 600,
-            }}
-          >
-            Beyond decks, we handle the full range of structural steel work — for clients who need more than one system addressed.
-          </p>
-
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: 3 }} className="supp-grid">
-            {SUPPORTING_SERVICES.map(({ num, img, title, desc, tags }) => (
-              <div
-                key={num}
-                className="reveal"
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: '200px 1fr',
-                  gap: 0,
-                  background: 'rgba(14,14,14,0.8)',
-                  border: '1px solid rgba(196,163,90,0.08)',
-                  overflow: 'hidden',
-                  transition: 'border-color .3s',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.borderColor = 'rgba(196,163,90,0.2)';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.borderColor = 'rgba(196,163,90,0.08)';
-                }}
-              >
-                <img
-                  src={img}
-                  alt={title}
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', minHeight: 180 }}
-                />
-
-                <div style={{ padding: '28px 24px' }}>
-                  <div
-                    style={{
-                      fontFamily: "'Cinzel',serif",
-                      fontSize: 9,
-                      letterSpacing: 3,
-                      color: 'rgba(196,163,90,0.4)',
-                      marginBottom: 10,
-                    }}
-                  >
-                    {num}
+          <div className="projects-grid">
+            {built.services.map((s) => {
+              const cover = serviceCover(SERVICE_TO_CATEGORY[s.id]);
+              return (
+                <div key={s.id} className="project-card reveal">
+                  <div className="card-img">
+                    {cover
+                      ? <Img image={cover.image} alt={L(s.name)} sizes="(max-width: 767px) 100vw, 33vw" />
+                      : <Pending label={L(ui.divisions.photo_pending_label)} aspect="4/3" />}
                   </div>
-
-                  <h3
-                    style={{
-                      fontFamily: "'Cinzel',serif",
-                      fontSize: 14,
-                      letterSpacing: 2,
-                      fontWeight: 400,
-                      marginBottom: 10,
-                      lineHeight: 1.3,
-                    }}
-                  >
-                    {title}
-                  </h3>
-
-                  <p style={{ fontSize: 12, lineHeight: 1.7, color: 'rgba(253,252,249,0.45)', marginBottom: 14 }}>
-                    {desc}
-                  </p>
-
-                  <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
-                    {tags.map((t) => (
-                      <span
-                        key={t}
-                        style={{
-                          fontSize: 8,
-                          letterSpacing: 2,
-                          textTransform: 'uppercase',
-                          border: '1px solid rgba(196,163,90,0.15)',
-                          color: 'rgba(196,163,90,0.6)',
-                          padding: '3px 8px',
-                        }}
-                      >
-                        {t}
-                      </span>
-                    ))}
+                  <div className="card-meta">
+                    <h3 style={{ marginTop: 0 }}>{L(s.name)}</h3>
+                    <p style={{ fontSize: 14, color: 'rgba(255,255,255,0.6)', margin: '8px 0 12px' }}>{L(s.blurb)}</p>
+                    {cover && (
+                      <Link to={`/${lang}/portfolio/${cover.project.slug}`} className="text-link" style={{ color: 'inherit' }}>
+                        {L(ui.services_page.see_work)}
+                      </Link>
+                    )}
                   </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* STUDIO — bone. Se renderiza completo; las fotos vienen en camino. */}
+      <section className="sec s-bone">
+        <div className="sec-inner">
+          <div className="sec-head reveal">
+            <span className="eyebrow">{studio.name}</span>
+            <h2 className="display-2">{L(studio.tagline)}</h2>
+          </div>
+          <div className="projects-grid">
+            {studio.services.map((s) => (
+              <div key={s.id} className="project-card reveal">
+                <div className="card-img">
+                  <Pending label={L(ui.divisions.photo_pending_label)} aspect="4/3" />
+                </div>
+                <div className="card-meta">
+                  <h3 style={{ marginTop: 0 }}>{L(s.name)}</h3>
+                  <p style={{ fontSize: 14, color: 'var(--muted)', margin: '8px 0' }}>{L(s.blurb)}</p>
+                  <span className="card-cat">{L(ui.services_page.coming)}</span>
                 </div>
               </div>
             ))}
           </div>
+        </div>
+      </section>
 
-          <div
-            className="reveal"
-            style={{
-              marginTop: 80,
-              background: 'rgba(196,163,90,0.04)',
-              border: '1px solid rgba(196,163,90,0.2)',
-              padding: '60px',
-              textAlign: 'center',
-            }}
-          >
-            <p
-              style={{
-                fontFamily: "'Cinzel',serif",
-                fontSize: 9,
-                letterSpacing: 5,
-                color: 'var(--gold)',
-                marginBottom: 16,
-                textTransform: 'uppercase',
-              }}
-            >
-              Start Your Project
-            </p>
-
-            <h3
-              style={{
-                fontFamily: "'Cinzel',serif",
-                fontSize: 'clamp(22px,3vw,36px)',
-                fontWeight: 400,
-                letterSpacing: 2,
-                marginBottom: 16,
-              }}
-            >
-              Not sure which service you need?
-            </h3>
-
-            <p
-              style={{
-                fontFamily: "'Cormorant Garamond',serif",
-                fontSize: 18,
-                color: 'var(--gray)',
-                maxWidth: 500,
-                margin: '0 auto 36px',
-              }}
-            >
-              Tell us about your property and what you're trying to solve. We'll tell you exactly what makes sense structurally.
-            </p>
-
-            <Link to="/contact" className="btn-primary">
-              Start a Conversation
-            </Link>
+      {/* How it works ampliado — gray */}
+      <section className="sec s-gray">
+        <div className="sec-inner">
+          <div className="sec-head reveal">
+            <span className="eyebrow">{L(ui.services_page.how_title)}</span>
+            <h2 className="display-2">{L(ui.about_page.process_title)}</h2>
+          </div>
+          <div className="how-steps cols-4">
+            {about.proceso.map((p) => (
+              <div className="how-step reveal" key={p.n}>
+                <span className="step-n">{p.n}</span>
+                <h3>{L(p.name)}</h3>
+                <p>{L(p.text)}</p>
+              </div>
+            ))}
           </div>
         </div>
-
-        <style>{`
-          @media(max-width:960px){
-            .srv-main{padding:80px 24px!important;}
-            .supp-grid{grid-template-columns:1fr!important;}
-            .supp-grid>div{grid-template-columns:1fr!important;}
-            .supp-grid>div img{height:180px!important;}
-          }
-        `}</style>
       </section>
-    </div>
+
+      {/* B2B — banda navy + gray */}
+      <div className="b2b-band">{L(ui.b2b.band)}</div>
+      <section className="sec s-gray" style={{ paddingTop: 'clamp(48px, 6vw, 80px)' }}>
+        <div className="sec-inner b2b-grid">
+          <div className="reveal">
+            <span className="eyebrow">{L(ui.b2b.eyebrow)}</span>
+            <h2 className="display-2">{L(ui.b2b.title)}</h2>
+            <div className="b2b-points">
+              {ui.b2b.points.map((p) => (
+                <div className="b2b-point" key={p.name.en}>
+                  <h3>{L(p.name)}</h3>
+                  <p>{L(p.text)}</p>
+                </div>
+              ))}
+            </div>
+            <div style={{ marginTop: 36 }}>
+              <Link to={`/${lang}/trade-partners`} className="btn-ghost">{L(ui.b2b.cta)}</Link>
+            </div>
+          </div>
+          <div className="reveal delay-1">
+            <LeadForm variant="trade" />
+          </div>
+        </div>
+      </section>
+    </>
   );
 }
