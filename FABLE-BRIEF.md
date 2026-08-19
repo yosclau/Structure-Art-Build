@@ -245,7 +245,17 @@ Aplica a: **retrato de Adrián** (la biografía ya existe, ver §07), testimonio
 
 **Bilingüe.** Toggle EN|ES arriba a la derecha, dorado en activo. Persistencia en localStorage. Detección de idioma del navegador en la primera visita. Rutas con prefijo: `/en/...` y `/es/...`. Etiquetas `hreflang`.
 
-**Imágenes.** Ya están en WebP con tres anchos. Usa `srcset` con los tres. `loading="lazy"` bajo el pliegue. 4:3 en tarjetas de proyecto.
+**Imágenes.** Ya están en WebP. **No todas tienen los tres anchos.** Las fotos de origen pequeño solo generaron los tamaños que caben:
+
+| Variantes | Fotos |
+|---|---|
+| 480 / 960 / 1440 | 116 |
+| 480 / 960 | 33 |
+| solo 480 | 14 |
+
+**Construye el `srcset` leyendo el objeto `srcset` de cada imagen en `projects.json`.** Nunca asumas que existen los tres anchos ni armes rutas a mano: 47 de 163 fotos devolverían un archivo inexistente.
+
+`loading="lazy"` bajo el pliegue. 4:3 en tarjetas de proyecto, salvo en la galería de proceso, que respeta orientación.
 
 **Video.** `preload="none"` en todo. Poster siempre. Sin video en móvil para el hero. Respeta `prefers-reduced-motion`.
 
