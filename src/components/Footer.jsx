@@ -36,7 +36,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-inner">
         <div className="footer-brand">
-          <img src="/media/brand/logo-on-black.webp" alt="Structure Art" />
+          <img src="/media/brand/logo-lockup.webp" alt="Structure Art" />
           <p>{L(ui.footer.blurb)}</p>
         </div>
 

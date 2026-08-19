@@ -38,7 +38,7 @@ export default function Navbar() {
     <header className={`navbar ${dark ? 'navbar-dark' : 'navbar-light'} ${scrolled || !isHome ? 'navbar-solid' : ''}`}>
       <div className="navbar-inner">
         <Link to={`/${lang}`} className="navbar-logo" aria-label="Structure Art">
-          <img src={dark ? '/media/brand/logo-on-black.webp' : '/media/brand/logo-lockup.webp'} alt="Structure Art" />
+          <img src="/media/brand/logo-lockup.webp" alt="Structure Art" />
         </Link>
 
         <nav className="navbar-links" aria-label="Main">

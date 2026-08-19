@@ -12,7 +12,6 @@ export default function Pending({ label, aspect, className = '', children }) {
   const style = aspect ? { aspectRatio: aspect } : undefined;
   return (
     <div className={`pending-block ${SHOW_PENDING ? 'pending-dev' : ''} ${className}`} style={style} aria-hidden="true">
-      <img className="pending-mark" src="/media/brand/logo-badge.webp" alt="" loading="lazy" />
       {children}
       {SHOW_PENDING && <span className="pending-label">{label}</span>}
     </div>
