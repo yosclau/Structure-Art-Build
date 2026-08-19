@@ -131,10 +131,10 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.
 }
 .navbar-inner {
   max-width: var(--container); margin: 0 auto;
-  padding: 18px var(--pad-x);
+  padding: 14px var(--pad-x);
   display: flex; align-items: center; justify-content: space-between; gap: 24px;
 }
-.navbar-logo img { height: 54px; width: auto; }
+.navbar-logo img { height: 72px; width: auto; }
 .navbar-dark { color: var(--white); }
 .navbar-light { color: var(--ink); }
 .navbar-solid.navbar-light { background: rgba(244,241,235,0.94); backdrop-filter: blur(10px); box-shadow: 0 1px 0 rgba(28,28,26,0.08); }
@@ -350,7 +350,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.
   max-width: var(--container); margin: 0 auto;
   display: grid; grid-template-columns: 1.6fr 1fr 1fr 1.2fr; gap: clamp(32px, 4vw, 64px);
 }
-.footer-brand img { height: 64px; width: auto; margin-bottom: 18px; }
+.footer-brand img { height: 96px; width: auto; margin-bottom: 18px; }
 .footer-brand p { font-size: 13.5px; color: rgba(255,255,255,0.55); max-width: 280px; line-height: 1.7; }
 .footer-col h4 {
   font-family: var(--font-body); font-size: 10px; font-weight: 500;
@@ -571,4 +571,9 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 400; line-height: 1.
   .wa-float { display: none; }
   body { padding-bottom: 52px; }
   .reel-track { grid-auto-columns: 260px; }
+}
+
+@media (max-width: 767px) {
+  .navbar-logo img { height: 56px; }
+  .footer-brand img { height: 76px; }
 }
